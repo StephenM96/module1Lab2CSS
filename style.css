@@ -1,0 +1,58 @@
+body {
+    height: 800px;
+}
+article {
+    margin: 20px 0;
+    padding: 20px;
+    border: 1px solid black;
+}
+
+.style-me1 {
+    color: red;
+}
+
+#style-me2 {
+    color: blue;
+}
+
+.style-me1#style-me2 {
+    color: purple;
+}
+
+.my-descendants-are-styled p {
+    background-color: red;
+}
+
+.my-children-are-styled > p {
+    background-color: red;
+}
+
+.box {
+    margin: 1px;
+    padding: 1px;
+    border: 1px solid black;
+    border-radius: 50%;
+    height: auto;
+    width: Auto;
+    overflow: auto;
+    outline: 1px solid black;
+    background-image: url("/assets/images/img1.png");
+    background-size: contain;
+    background-position: center;
+}
+
+.position-absolute {
+    position: left;
+    z-index: -1;
+}
+
+.position-relative {
+    position: left;
+}
+
+.position-sticky {
+    border: 1px solid black;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+}
