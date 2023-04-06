@@ -47,12 +47,33 @@ article {
 }
 
 .position-relative {
-    position: left;
+    position: relative;
 }
 
 .position-sticky {
-    border: 1px solid black;
-    position: -webkit-sticky;
     position: sticky;
     top: 0;
+    bottom: 0;
+}
+
+.text-style {
+    color: magenta;
+    font-size: 30px;
+    line-height: 35px;
+    font-weight: bold;
+    font-family: 'Tangerine', 'cursive';
+    text-align: right;
+    letter-spacing: 4px;
+    word-spacing: -2px;
+    text-transform: lowercase;
+    text-decoration: underline;
+}
+
+a, a:link, a:visited {
+    color: forestgreen;
+    font-size: 30px;
+}
+
+.calc-style {
+    width: calc(100vw - 100px);
 }
